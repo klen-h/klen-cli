@@ -1,0 +1,26 @@
+{
+  "name": "klen-cli",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.0",
+    "simple-git": "^3.26.0"
+  },
+  "bin": {
+    "create": "bin/cli.js"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3"
+  }
+}
